@@ -1,46 +1,45 @@
+# 🔐 Authentication System
 
-# 🔐 Sistema de Autenticação Completo
+Secure authentication with multi-role support, session renewal, and password recovery via email.
 
-Autenticação segura com suporte a múltiplos papéis, renovação de sessão e recuperação de senha por e-mail.
+## Features
 
-## ✨ Funcionalidades
-
-* ✅ Cadastro e login com JWT
-* 🔄 Refresh token automático
-* 🔒 Controle de acesso por papéis (`admin`, `user`, etc.)
-* 🛡 Guards para proteção de rotas
-* 📧 Recuperação de senha via e-mail
-
----
-
-## 🧱 Tecnologias
-
-* **NestJS**
-* **TypeORM**
-* **MySQL**
-* **JWT**
-* **BCrypt**
-* **Nodemailer**
-* **dotenv**
+- **User registration and login with JWT**
+- **Automatic refresh token**
+- **Role-based access control** (`admin`, `user`, etc.)
+- **Route protection guards**
+- **Password recovery via email**
 
 ---
 
-## 🚀 Como rodar
+## Technologies
 
-### 1. Clone o projeto
+- **NestJS**
+- **TypeORM**
+- **MySQL**
+- **JWT**
+- **BCrypt**
+- **Nodemailer**
+- **dotenv**
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the project
 
 ```bash
 git clone https://github.com/DnzxDev/auth-system.git
 cd auth-system
 ```
 
-### 2. Instale as dependências
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure o `.env`
+### 3. Configure `.env`
 
 ```env
 DB_HOST=localhost
@@ -49,17 +48,17 @@ DB_USERNAME=root
 DB_PASSWORD=password
 DB_DATABASE=auth_db
 
-JWT_SECRET=
+JWT_SECRET=your_jwt_secret_here
 
 MAIL_HOST=smtp.gmail.com
-MAIL_USER=seu_email@gmail.com
-MAIL_PASS=sua_senha_de_app
-MAIL_FROM=noreply@seuapp.com
+MAIL_USER=your_email@gmail.com
+MAIL_PASS=your_app_password
+MAIL_FROM=noreply@yourapp.com
 
 FRONTEND_URL=http://localhost:3001
 ```
 
-### 4. Inicie o servidor
+### 4. Start the server
 
 ```bash
 npm run build
@@ -68,12 +67,12 @@ npm run start
 
 ---
 
-## 📬 Contribua
+## 📬 Contribute
 
-Sugestões, melhorias ou correções são bem-vindas via *issues* ou *pull requests*.
+Suggestions, improvements, or fixes are welcome via *issues* or *pull requests*.
 
 ---
 
-## 🧑‍💻 Autor
+## 🧑‍💻 Author
 
-Desenvolvido por [Dn](https://github.com/DnzxDev) com ❤️
+Developed by [Dn](https://github.com/DnzxDev)
